@@ -1,0 +1,33 @@
+body {
+    margin:0px;
+}
+
+div#animation_container {
+    background-color:rgba(0, 0, 0, 1.00);
+    width:1920px;
+    height:750px;
+
+    position:absolute;
+    margin:auto;
+    left:0;right:0;
+}
+
+canvas#canvas {
+    width: 1920;
+    height: 750;
+    position: absolute;
+    display: block;
+    background-color: rgba(0, 0, 0, 1.00);
+}
+
+div#dom_overlay_container {
+    pointer-events: none;
+    overflow:hidden;
+    width:1920px;
+    height:750px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    display: block;
+}
+
